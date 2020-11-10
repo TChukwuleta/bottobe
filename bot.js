@@ -4,9 +4,8 @@ const twit = require('twit')
 const T = new twit(config)
 
 const params = {
-    q: '#tuesdayvibe',
-    result_type: 'recent',
-    count: 3
+    q: '#EndSARS',
+    result_type: 'recent'
 }
 
 function retweet () {
